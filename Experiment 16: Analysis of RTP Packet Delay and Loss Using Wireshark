@@ -1,0 +1,37 @@
+START
+
+OPEN Wireshark
+
+SELECT active network interface
+
+START packet capturing
+
+GENERATE RTP traffic
+WAIT for 20 to 30 seconds
+
+STOP packet capturing
+
+APPLY RTP display filter
+
+IF RTP packets are not identified THEN
+    DECODE UDP packets as RTP
+END IF
+
+OPEN Telephony menu
+
+SELECT RTP Streams
+
+CHOOSE required RTP stream
+
+CLICK Analyze
+
+OBSERVE:
+    Sequence Number
+    Packet Delay
+    Jitter
+    Skew
+    Packet Loss
+
+RECORD the observations
+
+STOP
