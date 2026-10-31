@@ -1,0 +1,39 @@
+START
+
+OPEN Wireshark
+
+SELECT active network interface
+
+START packet capturing
+
+OPEN Command Prompt
+
+EXECUTE "ping www.google.com"
+
+EXECUTE "nslookup www.google.com"
+
+OBSERVE captured packets
+
+STOP packet capturing
+
+APPLY display filters:
+    DNS
+    ICMP
+    TCP
+    UDP
+
+SELECT a packet
+
+INSPECT protocol layers
+
+FOLLOW TCP STREAM
+
+OPEN Statistics menu
+
+VIEW Protocol Hierarchy
+
+VIEW Conversations and Endpoints
+
+SAVE captured packets
+
+STOP
