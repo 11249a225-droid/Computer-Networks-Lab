@@ -1,0 +1,34 @@
+START
+
+OPEN Network Simulator (NS2)
+
+STUDY the NS2 environment
+
+IDENTIFY the features of NS2:
+    Routing
+    Transportation
+    Traffic Sources
+    Queuing Disciplines
+    Quality of Service (QoS)
+
+SELECT a network scenario
+
+IDENTIFY the network components:
+    Nodes
+    Links
+    Network Protocols
+
+STUDY wired and wireless network simulation
+
+OBSERVE the working of:
+    TCP
+    UDP
+    Routing Algorithms
+
+STUDY how network events are simulated
+
+OBSERVE simulation results
+
+ANALYZE network behaviour
+
+STOP
