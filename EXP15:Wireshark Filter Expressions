@@ -1,0 +1,26 @@
+START
+
+OPEN Wireshark
+
+SELECT active network interface
+
+ENTER capture filter
+START packet capturing
+
+GENERATE network traffic
+
+STOP packet capturing
+
+ENTER display filter
+
+APPLY the filter
+
+DISPLAY filtered packets
+
+OBSERVE packet details
+
+REPEAT with different filters
+
+SAVE captured packets
+
+STOP
