@@ -1,0 +1,35 @@
+START
+
+POWER ON LAN Trainer Kit
+
+IDENTIFY network components
+
+// BUS TOPOLOGY
+CONNECT all nodes to common backbone
+TRANSMIT data
+OBSERVE data transmission
+DISCONNECT backbone
+OBSERVE network failure
+
+// STAR TOPOLOGY
+CONNECT all nodes to central hub/switch
+TRANSMIT data
+DISCONNECT one node
+OBSERVE network communication
+
+// RING TOPOLOGY
+CONNECT nodes in a closed loop
+TRANSMIT data
+OBSERVE data movement
+DISCONNECT one link
+OBSERVE interruption
+
+// MESH TOPOLOGY
+CONNECT every node to all other nodes
+TRANSMIT data
+DISCONNECT one link
+OBSERVE alternate paths
+
+RECORD all observations
+
+STOP
