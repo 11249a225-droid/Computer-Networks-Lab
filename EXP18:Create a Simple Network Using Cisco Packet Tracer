@@ -1,0 +1,37 @@
+START
+
+OPEN Cisco Packet Tracer
+
+ADD one 2960 SWITCH
+
+ADD three PCs:
+    PC0
+    PC1
+    PC2
+
+CONNECT all PCs to the switch
+USING Copper Straight-Through cables
+
+ASSIGN IP addresses:
+
+    PC0 = 192.168.1.1
+    PC1 = 192.168.1.2
+    PC2 = 192.168.1.3
+
+SET subnet mask = 255.255.255.0
+
+OPEN PC0 Command Prompt
+
+EXECUTE ping 192.168.1.2
+
+EXECUTE ping 192.168.1.3
+
+IF ping is successful THEN
+    DISPLAY "Connection Successful"
+ELSE
+    DISPLAY "Connection Failed"
+END IF
+
+SAVE network as .pkt file
+
+STOP
